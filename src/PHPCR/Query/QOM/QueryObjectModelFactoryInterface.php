@@ -608,7 +608,7 @@ interface QueryObjectModelFactoryInterface extends QueryObjectModelConstantsInte
      *
      * @param mixed $literalValue the value
      *
-     * @return mixed the operand
+     * @return LiteralInterface the operand
      *
      * @throws InvalidQueryException if a particular validity test
      *                               is possible on this method, the implementation chooses to perform
