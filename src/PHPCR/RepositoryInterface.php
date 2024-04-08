@@ -567,7 +567,7 @@ interface RepositoryInterface
      *
      * @api
      */
-    public function login(CredentialsInterface $credentials = null, $workspaceName = null);
+    public function login(?CredentialsInterface $credentials = null, $workspaceName = null);
 
     /**
      * All descriptor keys available for this implementation.
