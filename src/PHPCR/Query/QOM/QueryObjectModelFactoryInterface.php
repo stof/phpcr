@@ -48,7 +48,7 @@ interface QueryObjectModelFactoryInterface extends QueryObjectModelConstantsInte
      */
     public function createQuery(
         SourceInterface $source,
-        ConstraintInterface $constraint = null,
+        ?ConstraintInterface $constraint = null,
         array $orderings = [],
         array $columns = []
     );
