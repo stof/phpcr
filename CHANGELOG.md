@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.11
+------
+
+* **2024-04-09**: Fixed `PHPCR\Query\QOM\QueryObjectModelFactoryInterface::literal` phpdoc return type.
+
 2.1.10
 ------
 
