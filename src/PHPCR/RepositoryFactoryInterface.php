@@ -55,7 +55,7 @@ interface RepositoryFactoryInterface
      *
      * @api
      */
-    public function getRepository(array $parameters = null);
+    public function getRepository(?array $parameters = null);
 
     /**
      * Get the list of configuration options that can be passed to
