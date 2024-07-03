@@ -1,10 +1,16 @@
 Changelog
 =========
 
+2.1.12
+------
+
+* **2024-07-03**: Revert BC breaks with nullable parameters as those are not supported in PHP 7.0.
+
 2.1.11
 ------
 
 * **2024-04-09**: Fixed `PHPCR\Query\QOM\QueryObjectModelFactoryInterface::literal` phpdoc return type.
+* **2024-04-08**: Code style fixes for PHP 8.3.
 
 2.1.10
 ------
