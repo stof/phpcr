@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.13
+------
+
+* **2024-07-03**: Drop support for PHP 7.0 and 5.6 to allow `?` in parameters to avoid warning with PHP 8.3 and prepare for PHP 9.
+
 2.1.12
 ------
 
